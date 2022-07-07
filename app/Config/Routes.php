@@ -48,6 +48,7 @@ $routes->get('/kas/lunas', 'Kas::lunas');
 $routes->get('/kas/bayar', 'Kas::lunas');
 $routes->get('/kas/bayar/(:any)', 'Kas::edit/$1');
 $routes->post('/kas/update/(:any)', 'Kas::update/$1');
+
 $routes->get('/kas/hapus/(:any)', 'Kas::hapus/$1');
 // $routes->post('/kas/edit/(:any)', 'Kas::save/$1');
 
